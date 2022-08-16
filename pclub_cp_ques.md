@@ -19,42 +19,42 @@ Third line of each test case have the value of each coupon.
 Single integer for each test case denoting the number of ways you can spend the money.
 
 **Example:**
-Input:
-2
-4
-2
-1 2
-5
-3
+Input:  
+2  
+4  
+2  
+1 2  
+5  
+3  
 1 3 4
 
-**Output:**
-5
+**Output:**  
+5  
 6
 
 **Explanation:**
 First test case:
 possible ways=
-1+1+1+1
-1+1+2
-1+2+1
-2+1+1
+1+1+1+1 ,
+1+1+2 ,
+1+2+1 ,
+2+1+1 ,
 2+2
 
 Second test case:
 possible ways=
-1+1+1+1+1
-1+1+3
-1+3+1
-3+1+1
-1+4
-4+1
+1+1+1+1+1 ,
+1+1+3 ,
+1+3+1 ,
+3+1+1 ,
+1+4 ,
+4+1 ,
 
 
-***Constraints:***
-t: 1<= t <= 10^2
-n: 1<= n <= 50
-m: 1<= m <= 10
+***Constraints:***  
+t: 1<= t <= 10^2  
+n: 1<= n <= 50  
+m: 1<= m <= 10  
 values of coupons <= 10^2 and each value is multiple of 10 and distinct.
 
 
